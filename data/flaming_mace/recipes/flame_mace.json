@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "c": {
+        "item": "minecraft:heavy_core"
+      },
+      "b": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "pattern": [
+      " c ",
+      " b ",
+      "   "
+    ],
+    "result": {
+      "count":1,
+      "id": "minecraft:mace",
+      "components": {
+        "custom_name": "{\"text\":\"Flame Mace\"}",
+        "custom_model_data": 1,
+        "enchantments": {
+          "levels": {
+            "fire_aspect": 2
+          },
+          "show_in_tooltip": false
+        },
+        "enchantment_glint_override": false
+      }
+    }
+  }
+  
